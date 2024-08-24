@@ -8,26 +8,35 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve --config webpack.config.js --open"
+
   },
   "devDependencies": {
-    "@types/cesium": "^1.59.2",
+    "@types/file-loader": "^5.0.4",
     "@types/node": "^18.7.8",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "cesium": "^1.84.0",
+    "@types/three": "^0.160.0",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
+
     "style-loader": "^3.2.1",
     "ts-loader": "^9.3.1",
-    "typescript": "^4.7.4",
     "url-loader": "^4.1.1",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.3.1"
+    "webpack-dev-server": "^4.3.1",
+    "prettier": "2.8.8",
+    "sass": "^1.69.0",
+    "typescript": "^5.2.2"
+
   },
   "dependencies": {
+    "@react-three/drei": "^9.96.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.160.1"
   }
 }
